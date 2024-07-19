@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.evolution.updater.controller;
+package org.evolution.updaterEVOService.controller;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -25,12 +25,12 @@ import android.util.Log;
 
 import androidx.localbroadcastmanager.content.LocalBroadcastManager;
 
-import org.evolution.updater.UpdatesDbHelper;
-import org.evolution.updater.download.DownloadClient;
-import org.evolution.updater.misc.Utils;
-import org.evolution.updater.model.Update;
-import org.evolution.updater.model.UpdateInfo;
-import org.evolution.updater.model.UpdateStatus;
+import org.evolution.updaterEVOService.UpdatesDbHelper;
+import org.evolution.updaterEVOService.download.DownloadClient;
+import org.evolution.updaterEVOService.misc.Utils;
+import org.evolution.updaterEVOService.model.Update;
+import org.evolution.updaterEVOService.model.UpdateInfo;
+import org.evolution.updaterEVOService.model.UpdateStatus;
 
 import java.io.File;
 import java.io.IOException;

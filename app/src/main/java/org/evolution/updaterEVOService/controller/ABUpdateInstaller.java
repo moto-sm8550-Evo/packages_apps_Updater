@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.evolution.updater.controller;
+package org.evolution.updaterEVOService.controller;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -25,10 +25,10 @@ import android.util.Log;
 
 import androidx.preference.PreferenceManager;
 
-import org.evolution.updater.misc.Constants;
-import org.evolution.updater.misc.Utils;
-import org.evolution.updater.model.Update;
-import org.evolution.updater.model.UpdateStatus;
+import org.evolution.updaterEVOService.misc.Constants;
+import org.evolution.updaterEVOService.misc.Utils;
+import org.evolution.updaterEVOService.model.Update;
+import org.evolution.updaterEVOService.model.UpdateStatus;
 
 import java.io.BufferedReader;
 import java.io.File;

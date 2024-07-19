@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.evolution.updater;
+package org.evolution.updaterEVOService;
 
 import android.app.NotificationChannel;
 import android.app.NotificationManager;
@@ -28,17 +28,17 @@ import android.os.SystemProperties;
 import androidx.core.app.NotificationCompat;
 import androidx.preference.PreferenceManager;
 
-import org.evolution.updater.misc.BuildInfoUtils;
-import org.evolution.updater.misc.Constants;
-import org.evolution.updater.misc.StringGenerator;
-import org.evolution.updater.misc.Utils;
+import org.evolution.updaterEVOService.misc.BuildInfoUtils;
+import org.evolution.updaterEVOService.misc.Constants;
+import org.evolution.updaterEVOService.misc.StringGenerator;
+import org.evolution.updaterEVOService.misc.Utils;
 
 import java.text.DateFormat;
 
 public class UpdaterReceiver extends BroadcastReceiver {
 
     public static final String ACTION_INSTALL_REBOOT =
-            "org.evolution.updater.action.INSTALL_REBOOT";
+            "org.evolution.updaterEVOService.action.INSTALL_REBOOT";
 
     private static final String INSTALL_ERROR_NOTIFICATION_CHANNEL =
             "install_error_notification_channel";

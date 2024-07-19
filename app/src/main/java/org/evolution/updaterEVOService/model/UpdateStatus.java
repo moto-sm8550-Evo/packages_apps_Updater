@@ -13,20 +13,27 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.evolution.updater.model;
+package org.evolution.updaterEVOService.model;
 
-public interface UpdateBaseInfo {
-    String getName();
+public enum UpdateStatus {
+    UNKNOWN,
+    STARTING,
+    DOWNLOADING,
+    PAUSED,
+    PAUSED_ERROR,
+    DELETED,
+    VERIFYING,
+    VERIFIED,
+    VERIFICATION_FAILED,
+    INSTALLING,
+    INSTALLED,
+    INSTALLATION_FAILED,
+    INSTALLATION_CANCELLED,
+    INSTALLATION_SUSPENDED;
 
-    String getDownloadId();
-
-    long getTimestamp();
-
-    String getType();
-
-    String getVersion();
-
-    String getDownloadUrl();
-
-    long getFileSize();
+    public static final class Persistent {
+        public static final int UNKNOWN = 0;
+        public static final int INCOMPLETE = 1;
+        public static final int VERIFIED = 2;
+    }
 }

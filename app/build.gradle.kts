@@ -33,7 +33,7 @@ android {
     compileSdk = 33
 
     defaultConfig {
-        applicationId = "org.evolution.updater"
+        applicationId = "org.evolution.updaterEVOService"
         minSdk = 30
         targetSdk = 33
         versionCode = 1
