@@ -5,7 +5,7 @@
 //
 
 android_app {
-    name: "Updater",
+    name: "UpdaterEVOService",
 
     // Include SettingsLib and its dependencies
     defaults: ["SettingsLibDefaults"],
