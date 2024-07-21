@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.evolution.updaterEVOService.misc;
+package org.evolution.updater.misc;
 
 import android.app.AlarmManager;
 import android.content.ClipData;
@@ -35,12 +35,12 @@ import androidx.preference.PreferenceManager;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
-import org.evolution.updaterEVOService.R;
-import org.evolution.updaterEVOService.UpdatesDbHelper;
-import org.evolution.updaterEVOService.controller.UpdaterService;
-import org.evolution.updaterEVOService.model.Update;
-import org.evolution.updaterEVOService.model.UpdateBaseInfo;
-import org.evolution.updaterEVOService.model.UpdateInfo;
+import org.evolution.updater.R;
+import org.evolution.updater.UpdatesDbHelper;
+import org.evolution.updater.controller.UpdaterService;
+import org.evolution.updater.model.Update;
+import org.evolution.updater.model.UpdateBaseInfo;
+import org.evolution.updater.model.UpdateInfo;
 
 import java.io.BufferedReader;
 import java.io.File;

@@ -13,12 +13,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.evolution.updaterEVOService.misc;
+package org.evolution.updater.misc;
 
 import android.content.Context;
 import android.content.res.Resources;
 
-import org.evolution.updaterEVOService.R;
+import org.evolution.updater.R;
 
 import java.text.DateFormat;
 import java.util.Date;

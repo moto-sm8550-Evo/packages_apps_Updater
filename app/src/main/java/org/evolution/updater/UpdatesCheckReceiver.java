@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.evolution.updaterEVOService;
+package org.evolution.updater;
 
 import android.app.AlarmManager;
 import android.app.NotificationChannel;
@@ -30,9 +30,9 @@ import androidx.core.app.NotificationCompat;
 import androidx.preference.PreferenceManager;
 
 import org.json.JSONException;
-import org.evolution.updaterEVOService.download.DownloadClient;
-import org.evolution.updaterEVOService.misc.Constants;
-import org.evolution.updaterEVOService.misc.Utils;
+import org.evolution.updater.download.DownloadClient;
+import org.evolution.updater.misc.Constants;
+import org.evolution.updater.misc.Utils;
 
 import java.io.File;
 import java.io.IOException;

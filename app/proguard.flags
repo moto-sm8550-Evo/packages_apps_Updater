@@ -1,1 +1,1 @@
--keep class org.evolution.updaterEVOService.ui.FlingBehavior { *; }
+-keep class org.evolution.updater.ui.FlingBehavior { *; }

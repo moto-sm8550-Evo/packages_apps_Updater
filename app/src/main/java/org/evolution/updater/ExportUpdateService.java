@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.evolution.updaterEVOService;
+package org.evolution.updater;
 
 import android.app.NotificationChannel;
 import android.app.NotificationManager;
@@ -29,7 +29,7 @@ import android.widget.Toast;
 
 import androidx.core.app.NotificationCompat;
 
-import org.evolution.updaterEVOService.misc.FileUtils;
+import org.evolution.updater.misc.FileUtils;
 
 import java.io.File;
 import java.io.IOException;

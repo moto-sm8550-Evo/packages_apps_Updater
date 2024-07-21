@@ -14,7 +14,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.evolution.updaterEVOService;
+package org.evolution.updater;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -24,13 +24,13 @@ import android.os.ParcelFileDescriptor;
 import android.util.Log;
 
 import org.json.JSONException;
-import org.evolution.updaterEVOService.controller.UpdaterController;
-import org.evolution.updaterEVOService.controller.UpdaterService;
-import org.evolution.updaterEVOService.misc.StringGenerator;
-import org.evolution.updaterEVOService.misc.Utils;
-import org.evolution.updaterEVOService.model.Update;
-import org.evolution.updaterEVOService.model.UpdateInfo;
-import org.evolution.updaterEVOService.model.UpdateStatus;
+import org.evolution.updater.controller.UpdaterController;
+import org.evolution.updater.controller.UpdaterService;
+import org.evolution.updater.misc.StringGenerator;
+import org.evolution.updater.misc.Utils;
+import org.evolution.updater.model.Update;
+import org.evolution.updater.model.UpdateInfo;
+import org.evolution.updater.model.UpdateStatus;
 
 import java.io.File;
 import java.io.FileInputStream;

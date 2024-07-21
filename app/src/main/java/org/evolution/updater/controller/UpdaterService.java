@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.evolution.updaterEVOService.controller;
+package org.evolution.updater.controller;
 
 import android.app.NotificationChannel;
 import android.app.NotificationManager;
@@ -35,16 +35,16 @@ import androidx.core.app.NotificationCompat;
 import androidx.localbroadcastmanager.content.LocalBroadcastManager;
 import androidx.preference.PreferenceManager;
 
-import org.evolution.updaterEVOService.R;
-import org.evolution.updaterEVOService.UpdaterReceiver;
-import org.evolution.updaterEVOService.UpdatesActivity;
-import org.evolution.updaterEVOService.misc.BuildInfoUtils;
-import org.evolution.updaterEVOService.misc.Constants;
-import org.evolution.updaterEVOService.misc.StringGenerator;
-import org.evolution.updaterEVOService.misc.Utils;
-import org.evolution.updaterEVOService.model.Update;
-import org.evolution.updaterEVOService.model.UpdateInfo;
-import org.evolution.updaterEVOService.model.UpdateStatus;
+import org.evolution.updater.R;
+import org.evolution.updater.UpdaterReceiver;
+import org.evolution.updater.UpdatesActivity;
+import org.evolution.updater.misc.BuildInfoUtils;
+import org.evolution.updater.misc.Constants;
+import org.evolution.updater.misc.StringGenerator;
+import org.evolution.updater.misc.Utils;
+import org.evolution.updater.model.Update;
+import org.evolution.updater.model.UpdateInfo;
+import org.evolution.updater.model.UpdateStatus;
 
 import java.io.File;
 import java.io.IOException;
